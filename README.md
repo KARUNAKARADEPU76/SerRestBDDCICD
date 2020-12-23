@@ -40,3 +40,5 @@ Section: Source code management
 Add the Repository URL as "**[https://github.com/KARUNAKARADEPU76/SerRestBDDCICD]**" here the url is my Github url, you have to upload to your Git Repository and then have to use that to execute.
  then in Branch Specifier (blank for 'any'), you can choose ***/master**. leave all other fields default selections and go to the section **[Post-build Actions]** and select the [Publish Thucydides reports] (you can install the plugin, if not available)for reporting purpose and save the Build configuration. 
  then build the project. click on the link 'Thucydides Test Report' to view th etest results.
+ 
+ You can also check some screeshots attached in the project folde [src/Serenity & Jenkin Screenshots] for your ref.
