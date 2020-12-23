@@ -1,7 +1,8 @@
-###### **Swagger Petstore API Tests (Cucumber - Rest Assured)**
+#### **Swagger Petstore API Tests (Cucumber - Rest Assured)**
 
 
-####**The starter project**
+**The starter project**
+
 The best place to start with Serenihttps://github.com/serenity-bdd/serenity-cucumber-starterty and Cucumber is to clone or download the starter project on Github ([https://github.com/KARUNAKARADEPU76/SerRestBDDCICD]). This project gives you a basic project setup, along with some sample tests and supporting classes.
 This is automation suite is designed to test the Swagger Pet store POST /pet request.
 
@@ -30,7 +31,8 @@ In order to execute the automation suite navigate to the Project directory withi
 (Correct error message is provided when searching for an order that does not exist, Users are able to place orders for available pets, Users are NOT able to place orders for available pets, Users are able to delete pets from the system, Adding a pet with no body for the request results in a 400 response) These tests are coded correctly, this is a legitimate failure when using the assumption that users should not be able to place orders for pets that are not available.
 
 
-#**Jenkins integration:** 
+###### **Jenkins integration:**
+
 I have build this project successfully on Jenkins and verified the test results by publishing the 'Publish Serenity Report' in the Post Build Actions and also i used 'Publish Thucydides reports' to view the test results.
 
 To build and deploy the above project, go to Jenkins and create a Maven Project, then configure the project with below details
